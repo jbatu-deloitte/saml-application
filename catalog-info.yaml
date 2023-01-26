@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: saml-application
+  annotations:
+    github.com/project-slug: jbatu-deloitte/saml-application
+spec:
+  type: other
+  lifecycle: unknown
+  owner: jairenz
