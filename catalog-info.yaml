@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: saml-application
   annotations:
@@ -7,6 +7,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: jairenz
+  owner: user:default/jbatu-deloitte
   providesApis:
     - authentication-api
