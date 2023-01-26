@@ -5,6 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: jbatu-deloitte/saml-application
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
   owner: jairenz
+  providesApis:
+    - authentication-api
