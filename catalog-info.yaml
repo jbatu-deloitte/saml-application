@@ -10,4 +10,3 @@ spec:
   owner: user:default/jbatu-deloitte
   providesApis:
     - authentication-api
-  owner: user:default/jbatu-deloitte
