@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: api
+kind: other
 metadata:
   name: saml-application
   annotations:
@@ -10,5 +10,3 @@ spec:
   owner: user:default/jbatu-deloitte
   providesApis:
     - authentication-api
-  definition:
-    $text: https://petstore.swagger.io/v2/swagger.json
